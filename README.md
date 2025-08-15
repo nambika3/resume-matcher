@@ -48,7 +48,7 @@ A Streamlit app that uses OpenAI's GPT-3.5-turbo to analyze and match resumes ag
 
 
 ## Requirements
-   See requirements.txt for dependencies.
+   See `requirements.txt` for dependencies.
 
    If you have a virtual environment, you can generate this automatically by running:
    ```bash
