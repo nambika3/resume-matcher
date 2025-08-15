@@ -11,8 +11,6 @@ from reportlab.lib.styles import getSampleStyleSheet
 #   API Key Configuration
 # --------------------------
 openai.api_key = os.getenv("OPENAI_API_KEY")
-# if not openai.api_key:
-#     raise RuntimeError("Missing OPENAI_API_KEY")
 
 # --------------------------
 #   File Reading Function
@@ -120,4 +118,3 @@ if st.button("Analyze") and resume_file and jd_text:
 # --------------------------
 st.markdown("---")
 st.caption("🔒 Your data is processed securely in-memory and never stored.")
-# st.caption("💡 For offline privacy, consider self-hosted models like GPT4All.")
