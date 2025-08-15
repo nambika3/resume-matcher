@@ -12,30 +12,36 @@ A Streamlit app that uses OpenAI's GPT-3.5-turbo to analyze and match resumes ag
 
 ## How to Run
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/resume-matcher.git
-cd resume-matcher
-
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   
-3. Set your OpenAI API key as environment variable:
-   => For macOS/Linux:
+    1. Clone the repository
+       ```bash
+       git clone https://github.com/your-username/resume-matcher.git
+       cd resume-matcher
+       ```
+   2. Install dependencies:  
+      ```bash
+      pip install -r requirements.txt
+      ```
+   3. Set your OpenAI API key as environment variable:
+      => For macOS/Linux:
+      ```bash
       export OPENAI_API_KEY="your_api_key_here"
-    => For Windows PowerShell:
+      ```
+     => For Windows PowerShell:
+     ```bash
        $env:OPENAI_API_KEY="your_api_key_here"
-
-4. Run the app:
-   streamlit run app.py
+      ```
+   5. Run the app:
+      ```bash
+      streamlit run app.py
+      ```
 
 ## Requirements
    See requirements.txt for dependencies.
 
    If you have a virtual environment, you can generate this automatically by running:
+   ```bash
    pip freeze > requirements.txt
+   ```
 
 ## License
    MIT License
@@ -44,4 +50,3 @@ cd resume-matcher
    Ambika Narayanan
    Feel free to connect or contribute!
 
-  
