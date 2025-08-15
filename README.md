@@ -59,6 +59,6 @@ A Streamlit app that uses OpenAI's GPT-3.5-turbo to analyze and match resumes ag
    MIT License
 
 ## Author
-   Ambika Narayanan
+   Ambika Narayanan  
    Feel free to connect or contribute!
 
