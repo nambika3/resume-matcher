@@ -35,7 +35,7 @@ def anonymize_text(text):
 # --------------------------
 def get_match_score(resume_text, jd_text):
     resume_text_safe = anonymize_text(resume_text)
-    resume_text_safe = anonymize_text(jd_text)
+    jd_text_safe = anonymize_text(jd_text)
 
     prompt = f"""
     You are an expert technical recruiter. 
@@ -52,7 +52,7 @@ def get_match_score(resume_text, jd_text):
     {resume_text_safe}
 
     Job Description:
-    {resume_text_safe}
+    {jd_text_safe}
     """
 
     response = openai.ChatCompletion.create(
